@@ -1,0 +1,39 @@
+.logo-small {
+    width: 80px;
+    height: 45px;
+  }
+  
+  .navbar-small {
+    height: 55px;
+  }
+  
+  .logo-margin { 
+    margin-right: 20px;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Make sure it's above other elements */
+    /* Add other styling as needed */
+  }
+  
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+  }
+
+.menu-item {
+    color: rgb(255, 255, 255) !important;
+}
+  
+  
+  .menu-item:hover {
+    color: rgb(19, 229, 19) !important;
+  }
